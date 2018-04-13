@@ -2,7 +2,7 @@
 board = [" "," "," "," "," "," "," "," "," "]
 require_relative '../lib/move.rb'
 
-puts "Welcome To Tic Tac Toe!"
+puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
 user_input = gets.strip.to_i

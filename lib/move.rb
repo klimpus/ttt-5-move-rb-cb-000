@@ -8,7 +8,6 @@ end
 
 def input_to_index(user_input)
   puts "Where would you like to go?"
-    user_input = gets.string.to_i
-    converted_input = user_input - 1
-    
+    converted_input = gets.string.to_i - 1
+    converted_input = input_to_index(user_input)
 end

@@ -7,7 +7,5 @@ def display_board(board)
 end
 
 def input_to_index(user_input)
-  puts "Where would you like to go?"
-    converted_input = gets.string.to_i - 1
-    converted_input = input_to_index(user_input)
+    
 end

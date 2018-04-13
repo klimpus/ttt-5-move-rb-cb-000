@@ -3,3 +3,4 @@
 require_relative '../lib/move.rb'
 
 puts "Welcome To Tic Tac Toe!"
+user_input = gets.strip.to_i

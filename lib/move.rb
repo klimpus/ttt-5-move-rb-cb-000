@@ -1,7 +1,5 @@
 board = [" "," "," "," "," "," "," "," "," "]
-
 def display_board(board)
-  board = [" "," "," "," "," "," "," "," "," "]
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
@@ -10,5 +8,6 @@ def display_board(board)
 end
 
 def input_to_index(user_input)
-  user_input = "#{board[user_input - 1]}"
+  puts "Where would you like to go?"
+  gets.string.to_i = user_input
 end
